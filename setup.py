@@ -5,7 +5,7 @@ import pip.download
 from pip.req import parse_requirements
 from setuptools import setup, find_packages
 
-
+version = '1'
 requirements = list(parse_requirements('requirements.txt',
                                        session=pip.download.PipSession()))
 
